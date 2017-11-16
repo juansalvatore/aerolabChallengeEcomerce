@@ -9,7 +9,7 @@
   </head>
   <body>
 
-    <?php $id = 3; ?>
+    <?php $id = 0; ?>
 
     <!-- <br>
     {{ $products[$id]['cost'] }}
@@ -27,6 +27,7 @@
         <span class="name">{{ $products[$id]['name'] }}</span>
       </div>
     </div>
+    <?php $id = 4; ?>
     <div class="productContainer">
       <div class="imgContainer">
         <img src="{{ $products[$id]['img']['url'] }}" alt="{{ $products[$id]['name'] }}"><br>

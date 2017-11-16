@@ -1,6 +1,12 @@
 
+body
+  padding: 40px
+*
+  box-sizing: border-box
 
 .productContainer
+  position: relative
+  bottom: 0px
   width: 276px
   padding: 12px 12px 0 12px
   box-shadow: 2px 2px 4px rgba(0,0,0,0.10)
@@ -8,7 +14,13 @@
     family: 'Source Sans Pro', sans-serif
   float: left
   margin-right: 24px
-  margin-bottom: 24px 
+  margin-bottom: 24px
+  transition: all ease-in-out 300ms
+
+  &:hover
+    bottom: 12px
+    box-shadow: 10px 10px 40px rgba(0,0,0,0.35)
+
 
 .imgContainer
 
