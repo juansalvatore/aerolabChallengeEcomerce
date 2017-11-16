@@ -7,6 +7,13 @@ use Illuminate\Http\Request;
 class landingController extends Controller
 {
     public function show() {
+      $products = $this->getProducts();
+      // dd($response);
+      return view('index')->with('products', $products);
+    }
+
+    // function to get products from API as JSON and decode the
+    public function getProducts() {
       $ch = curl_init();
       curl_setopt($ch, CURLOPT_URL, "https://aerolab-challenge.now.sh/products");
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
@@ -22,8 +29,18 @@ class landingController extends Controller
       curl_close($ch);
       $response = json_decode($response, true);
 
-      dd($response[0]['name']);
+      return $response;
 
-      return view('index');
+      // RESPONSE (before decoding into array)
+      // {
+      //   "_id": "5a033eeb364bf301523e9b92",
+      //   "name": "Sandalia Pale Gold YSL",
+      //   "cost": 200,
+      //   "category": "Indumentaria",
+      //   "img": {
+      //     "url": "https://coding-challenge-api-huojtyfzzb.now.sh/images/Alienware13-x2.png",
+      //     "hdUrl": "https://coding-challenge-api-huojtyfzzb.now.sh/images/Alienware13-x2.png"
+      //   }
+      // }
     }
 }

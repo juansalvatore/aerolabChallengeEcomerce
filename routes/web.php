@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/', 'landingController@show')->name('welcome');
+Route::get('/', 'landingController@show')->name('index');
