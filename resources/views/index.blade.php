@@ -9,7 +9,7 @@
   </head>
   <body>
 
-    <?php $id = 0; ?>
+    <?php $id = 15; ?>
 
     <!-- <br>
     {{ $products[$id]['cost'] }}
@@ -18,8 +18,14 @@
     <!-- <img src="{{ $products[$id]['img']['hdUrl'] }}" alt="{{ $products[$id]['name'] }}"> -->
 
     <div class="productContainer">
+      <div class="blueSection">
+        <div class="textAndIconContainer">
+          <span class="price">{{ $products[$id]['cost'] }}</span><img class="goldIcon" src="GoldIcon.svg">
+        </div>
+        <a href="#"><div class="redeemButton"><span>Redeem now</span></div></a>
+      </div>
       <div class="imgContainer">
-        <img src="{{ $products[$id]['img']['url'] }}" alt="{{ $products[$id]['name'] }}"><br>
+        <img src="{{ $products[$id]['img']['hdUrl'] }}" alt="{{ $products[$id]['name'] }}"><br>
       </div>
       <div class="textContainer">
         <span class="category">{{ $products[$id]['category'] }}</span>
@@ -27,17 +33,7 @@
         <span class="name">{{ $products[$id]['name'] }}</span>
       </div>
     </div>
-    <?php $id = 4; ?>
-    <div class="productContainer">
-      <div class="imgContainer">
-        <img src="{{ $products[$id]['img']['url'] }}" alt="{{ $products[$id]['name'] }}"><br>
-      </div>
-      <div class="textContainer">
-        <span class="category">{{ $products[$id]['category'] }}</span>
-        <br>
-        <span class="name">{{ $products[$id]['name'] }}</span>
-      </div>
-    </div>
+
 
   </body>
 </html>
