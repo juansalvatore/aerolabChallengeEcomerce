@@ -1,6 +1,6 @@
 # Arolab's Coding Challenge...
 
-<p style="color:;#616161">My solution in laravel for the 2017 aerolab coding challenge.</p>
+<h5 style="color:;#616161">My solution in laravel for the 2017 aerolab coding challenge.</h5>
 <p style="color:#A3A3A3;">Wanna know more about me?<a href="www.juansalvatore.com"> check out my website! </a></p>
 
 <img src="https://aerolab.co/criterios/images/illus-bookhero.gif" style="width:300px;"> 
