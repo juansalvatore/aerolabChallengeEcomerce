@@ -3,7 +3,7 @@
 
 <img src="https://aerolab.co/criterios/images/illus-bookhero.gif" style="width:300px;"> 
 
-start: 16/11/2017
+<p style="color:;#A3A3A3">- Starting point: 16/11/2017</p>
 
 <h3>Sprint organization:</h3>
 <ul>
