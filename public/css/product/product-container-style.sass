@@ -1,6 +1,8 @@
 
 body
   padding: 40px
+  background-color: #f9f9f9
+
 *
   box-sizing: border-box
 
@@ -30,6 +32,22 @@ a
     size: 36px
   color: #FFFFFF
 
+.blueCircle
+  position: absolute
+  right: 12px
+  top: 12px
+  width: 42px
+  height: 42px
+  border-radius: 50px
+  background-color: #0AD4FA
+  z-index: 20
+  display: flex
+  align-items: center
+  justify-content: center
+  transition: all ease-in-out 300ms
+  pointer-events: none
+
+
 .redeemButton
   background-color: #FFFFFF
   width: 228px
@@ -53,6 +71,25 @@ a
     width: 32px
     margin-left: 10px
 
+.missingToPrice
+  position: absolute
+  right: 12px
+  top: 12px
+  background-color: rgba(97,97,97,0.9)
+  width: 142px
+  height: 42px
+  border-radius: 50px
+  display: flex
+  align-items: center
+  justify-content: center
+  color: white
+  font:
+    size: 14px
+
+.goldIconMissingPrice
+  margin-left: 6px
+  margin-top: 4px
+  width: 24px
 
 .productContainer
   position: relative
@@ -67,6 +104,8 @@ a
   margin-right: 24px
   margin-bottom: 24px
   transition: all ease-in-out 300ms
+  letter-spacing: -0.03;
+  background-color: white
 
   &:hover
     bottom: 12px
