@@ -13,3 +13,5 @@ start: 16/11/2017
   <li><strong>Sprint 2: </strong>Design loading</li>
   <li><strong>Sprint 2: </strong>Play with design and transitions. Think about adding stuff to make it better!</li>
 </ul>
+
+<img src="https://cdn-images-1.medium.com/max/2000/1*W0SiGjBURAp2xYs5UcNBHg.gif">
