@@ -1,6 +1,7 @@
 # Arolab's Coding Challenge...
-<img src="https://cdn-images-1.medium.com/max/1600/1*JKdyZ2hw8xqX8z2uDf0xgg.gif" style="width:300px;"> 
-My solution in laravel for the 2017 aerolab coding challenge! 
+<p style="color:;#616161">My solution in laravel for the 2017 aerolab coding challenge!</p>
+
+<img src="https://aerolab.co/criterios/images/illus-bookhero.gif" style="width:300px;"> 
 
 start: 16/11/2017
 
