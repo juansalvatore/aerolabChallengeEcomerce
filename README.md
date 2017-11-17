@@ -10,7 +10,7 @@
 
 <h3>Sprint organization:</h3>
 <ul>
-  <li><strong>Sprint 1: </strong>Create the full implementation of the dinamic product container</li><span style="font-family: wingdings; font-size: 200%;">&#252;</span>
+  <li><strong>Sprint 1: </strong>Create the full implementation of the dinamic product container</li><h3>✓</h3>
   <li><strong>Sprint 2: </strong>Create template view with pagination</li>
   <li><strong>Sprint 3: </strong>Create header and top banner</li>
   <li><strong>Sprint 4: </strong>Create buttons to re-arrange the array obtained from the json retrieved from the API</li>
