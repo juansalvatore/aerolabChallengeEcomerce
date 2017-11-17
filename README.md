@@ -1,7 +1,7 @@
 # Arolab's Coding Challenge...
 
 <h4 style="color:;#616161">My solution in laravel for the 2017 Aerolab Coding Challenge.</h4>
-<p style="color:#A3A3A3;"> ---> Wanna see my project live?<a href="aerolab.juansalvatore.com"> --> click here <-- </a></p>
+<p style="color:#A3A3A3;"> ---> Wanna see my project live?<a href="http://aerolab.juansalvatore.com/"> --> click here <-- </a></p>
 <p style="color:#A3A3A3;"> ---> Wanna know more about me?<a href="http://juansalvatore.com/"> check out my website! </a></p>
 
 <img src="https://aerolab.co/criterios/images/illus-bookhero.gif" style="width:300px;"> 
