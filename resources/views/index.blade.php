@@ -10,12 +10,14 @@
       </div>
     </div>
   </div>
-
+  <div class="banner">
+    <img src="header-x1.png" alt="banner">
+  </div>
 @endsection
 
 @section('products')
-  @extends('elements.products', [
-    'user' => $user,
-    'products' => $products,
-  ])
+    @extends('elements.products', [
+      'user' => $user,
+      'products' => $products,
+    ])
 @endsection
