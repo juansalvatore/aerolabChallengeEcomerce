@@ -8,3 +8,30 @@ $(".productContainer").hover(function(){
     $(".blueCircle", this).css("background-color", "#0AD4FA");
     $("#carritoColor", this).css("fill", "white");
 });
+
+
+
+$("#mostRecent").click(function() {
+  if(!$(this).hasClass("activeButton")) {
+    $(this).toggleClass("activeButton");
+    $("#lowestPrice").removeClass("activeButton");
+    $("#highestPrice").removeClass("activeButton");
+
+  }
+});
+
+$("#lowestPrice").click(function() {
+  if(!$(this).hasClass("activeButton")) {
+    $(this).toggleClass("activeButton");
+    $("#mostRecent").removeClass("activeButton");
+    $("#highestPrice").removeClass("activeButton");
+  }
+});
+
+$("#highestPrice").click(function() {
+  if(!$(this).hasClass("activeButton")) {
+    $(this).toggleClass("activeButton");
+    $("#mostRecent").removeClass("activeButton");
+    $("#lowestPrice").removeClass("activeButton");
+  }
+});
