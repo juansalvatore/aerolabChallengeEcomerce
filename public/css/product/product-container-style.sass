@@ -58,16 +58,19 @@ a
   letter-spacing: -0.15px
   line-height: 48px
   text-align: left
+  font-family: 'Source Sans Pro', sans-serif
 
 // BANNER
 .banner
   position: absolute
-  top: 77px
-  z-index: -2
+  top: 0
   width: 100%
+  height: 412px
+  background: url('../../header-x1.png') no-repeat fixed center
+  background-size: auto
+  background-position: calc(100%) calc(100% - 180px);
 
-  img
-    width: 100%
+
 
 // BUTTONS SECTION
 .buttonsContainer
@@ -151,7 +154,8 @@ a
   background-color: #0ad4fa
   color: #ffffff
 
-
+.rightArrow
+  float: right
 // PRODUCT DISPLAY
 .productsDisplayBox
   position: absolute

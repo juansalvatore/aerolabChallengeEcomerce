@@ -9,14 +9,12 @@ $(".productContainer").hover(function(){
     $("#carritoColor", this).css("fill", "white");
 });
 
-
-
+// order buttons logic
 $("#mostRecent").click(function() {
   if(!$(this).hasClass("activeButton")) {
     $(this).toggleClass("activeButton");
     $("#lowestPrice").removeClass("activeButton");
     $("#highestPrice").removeClass("activeButton");
-
   }
 });
 

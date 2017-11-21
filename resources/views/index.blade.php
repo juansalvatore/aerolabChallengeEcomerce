@@ -19,7 +19,7 @@
     <a id="highestPrice" class="highestPrice" href="#">
       <span>Highest price</span>
     </a>
-    <a href="#"><img src="arrow-right.svg" alt="arrow right"></a>
+    <a class="rightArrow" href="#"><img src="arrow-right.svg" alt="arrow right"></a>
   </div>
 
 @endsection
