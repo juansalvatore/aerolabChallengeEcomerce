@@ -10,5 +10,5 @@
 </div>
 <!-- IMG banner -->
 <div class="banner">
-  <!-- <img src="header-x1.png" alt="banner"> -->
+  <img class="imagenBanner" src="header-x1.png" alt="banner">
 </div>
