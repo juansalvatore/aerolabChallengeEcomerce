@@ -12,4 +12,7 @@
 <div class="banner">
   <img class="imagenBanner" src="header-x1.png" alt="banner">
   <canvas id='canvas'></canvas>
+  <div class="titleContainer">
+    <h1>Electronics</h1>
+  </div>
 </div>

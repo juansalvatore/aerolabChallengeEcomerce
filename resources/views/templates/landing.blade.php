@@ -6,7 +6,7 @@
     <title>aerolab</title>
     <link rel="shortcut icon" type="image/png" href="aerolabFavicon.png" sizes="32x32"/>
 
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
     <link rel="stylesheet" href="/css/product/product-container-style.min.css">
   </head>
   <body>
