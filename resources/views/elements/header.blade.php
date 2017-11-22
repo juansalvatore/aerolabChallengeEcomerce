@@ -11,4 +11,5 @@
 <!-- IMG banner -->
 <div class="banner">
   <img class="imagenBanner" src="header-x1.png" alt="banner">
+  <canvas id='canvas'></canvas>
 </div>
