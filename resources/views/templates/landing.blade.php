@@ -15,7 +15,10 @@
     @yield('orderButtons')
 
     @yield('products')
-
+    <?php use Illuminate\Support\Facades\Input; ?>
+    <div class="footer">
+      {!! $products->appends(Input::except('page'))->render() !!}
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/cartButtonController.js"></script>
     <script src="js/triangleShapeController.js"></script>

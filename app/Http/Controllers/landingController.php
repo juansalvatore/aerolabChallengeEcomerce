@@ -1,15 +1,25 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Collection;
+use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Http\Request;
+
 
 class landingController extends Controller
 {
     public function show() {
-      $products = $this->getProducts();
+      $response = $this->getProducts();
       $user = $this->getUser();
       // dd($response);
+
+      // paginate 8 products per page
+      $currentPage = LengthAwarePaginator::resolveCurrentPage();
+      $col = new Collection($response);
+      $perPage = 8;
+      $currentPageSearchResults = $col->slice(($currentPage - 1) * $perPage, $perPage)->all();
+      $products = new LengthAwarePaginator($currentPageSearchResults, count($col), $perPage);
+
       return view('index')->with([
         'products' => $products,
         'user' => $user,
