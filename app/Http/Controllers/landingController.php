@@ -16,7 +16,7 @@ class landingController extends Controller
       // paginate 8 products per page
       $currentPage = LengthAwarePaginator::resolveCurrentPage();
       $col = new Collection($response);
-      $perPage = 8;
+      $perPage = 16;
       $currentPageSearchResults = $col->slice(($currentPage - 1) * $perPage, $perPage)->all();
       $products = new LengthAwarePaginator($currentPageSearchResults, count($col), $perPage);
 

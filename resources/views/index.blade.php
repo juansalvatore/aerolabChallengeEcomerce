@@ -20,7 +20,21 @@
       <a id="highestPrice" class="highestPrice" href="#">
         <span>Highest price</span>
       </a>
-      <a class="rightArrow" href="#"><img src="arrow-right.svg" alt="arrow right"></a>
+      <!-- add if to check amount of pages -->
+      <!-- PAGES = (nr of articles / nr of articles shown per page) average up -->
+
+      @if(isset($_GET['page']))
+        @if($_GET['page'] > 1)
+          <a class="leftArrow" href="/?page={{
+            $_GET['page'] - 1
+          }}"><img src="arrow-left.svg" alt="arrow left"></a>
+        @endif
+        <a class="rightArrow" href="/?page={{
+          $_GET['page'] + 1
+        }}"><img src="arrow-right.svg" alt="arrow right"></a>
+      @else
+        <a class="rightArrow" href="/?page=2"><img src="arrow-right.svg" alt="arrow right"></a>
+      @endif
       <div class="buttonBottonDivisior"></div>
     </div>
   </div>
